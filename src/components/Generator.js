@@ -11,15 +11,13 @@ class Generator extends Component {
 		return(
 			<div className="App-generatorHolder">
 				<div className="inputBox">
-				<label htmlFor="rows">Rows</label>
-				<input type="text" name="rows" defaultValue={this.state.rows}/>
+					<label htmlFor="rows">Rows</label>
+					<input type="text" name="rows" defaultValue={this.state.rows}/>
 				</div>
-				
 				<span>x</span>
-			
 				<div className="inputBox">
-				<label htmlFor="cols">Rows</label>
-				<input type="text" name="cols" defaultValue={this.state.cols}/>
+					<label htmlFor="cols">Rows</label>
+					<input type="text" name="cols" defaultValue={this.state.cols}/>
 				</div>
 			</div>
 			)
