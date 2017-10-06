@@ -2,4 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
+}
+#root{
+	width:482px;
+	margin: 0 auto;
+	text-align: left;
 }
