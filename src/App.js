@@ -3,6 +3,7 @@ import './App.css';
 import Generator from './components/Generator.js';
 import Grid from './components/Grid.js';
 
+
 class App extends Component {
   render() {
     return (

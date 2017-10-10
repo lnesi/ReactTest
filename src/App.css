@@ -11,3 +11,4 @@
   margin-bottom: 40px;
 }
 
+ input,  button { outline: none; }
