@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import * as mdc from 'material-components-web';
 import Landing from './Pages/Landing';
@@ -17,7 +16,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
        <Router>
          <div>
           <Header/>

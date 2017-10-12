@@ -8,7 +8,9 @@
     "material-components-web": "^0.22.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,6 +19,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "axios": "^0.16.2",
     "flag-icon-css": "^2.8.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
