@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material/list": "^0.2.20",
+    "@material/select": "^0.3.18",
+    "material-components-web": "^0.22.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14"
@@ -14,7 +17,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "flag-icon-css": "^2.8.0",
     "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
     "redux": "^3.7.2"
   }
 }
