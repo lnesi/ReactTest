@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import 'flag-icon-css/css/flag-icon.css';
 class Landing extends Component {
-render(){
+render(  ){
+	
 		return (
 			<div>
 			<nav className="mdc-list">

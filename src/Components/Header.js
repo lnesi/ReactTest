@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import { Link,withRouter } from 'react-router-dom';
 
 class Header extends Component{
 	render(){
+
 		return(
 			<header className="mdc-toolbar App-header">
 			  <div className="mdc-toolbar__row">
 			    <section className="mdc-toolbar__section mdc-toolbar__section--align-start">
-			      <span className="mdc-toolbar__title">Exchanger</span>
+					<Link to="/" className="App-headerLink"><span className="mdc-toolbar__title">Exchanger</span></Link>
 			    </section>
 			  </div>
 			</header>

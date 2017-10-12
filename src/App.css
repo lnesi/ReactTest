@@ -23,7 +23,7 @@
 }
 
 .App {
- 
+
 }
 
 .App-logo {
@@ -34,5 +34,8 @@
 
   margin-bottom: 10px;
 }
-
+.App-headerLink{
+    text-decoration: none;
+    color:#fff;
+}
  input,  button { outline: none; }
