@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
+import 'flag-icon-css/css/flag-icon.css';
 import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import * as mdc from 'material-components-web';
 import Landing from './Pages/Landing';
 import Exchange from './Pages/Exchange';
 import Header from './Components/Header';
 
 class App extends Component {
   componentDidMount(){
-    mdc.autoInit();
+   //mdc.autoInit();
   }
   render() {
     return (

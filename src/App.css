@@ -38,4 +38,17 @@
     text-decoration: none;
     color:#fff;
 }
+.App-content-holder{
+      margin: 0px 20px;
+}
+.App-currency_entry,.App-text_left{
+  text-align: left;
+}
+
+.App-text_right{
+  text-align: right;
+}
  input,  button { outline: none; }
+
+
+

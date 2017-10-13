@@ -5,6 +5,7 @@
   "dependencies": {
     "@material/list": "^0.2.20",
     "@material/select": "^0.3.18",
+    "@material/textfield": "^0.5.0",
     "material-components-web": "^0.22.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
