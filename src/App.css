@@ -52,3 +52,6 @@
 
 
 
+:root{
+  --mdc-theme-primary: #333 !important;
+}

@@ -10,17 +10,15 @@ import Exchange from './Pages/Exchange';
 import Header from './Components/Header';
 
 class App extends Component {
-  componentDidMount(){
-   //mdc.autoInit();
-  }
+
   render() {
     return (
       <div className="App">
-       <Router>
+       <Router basename="/react/">
          <div>
           <Header/>
-          <Route exact path="/react"  component={Landing}/>
-          <Route path="/react/exchange/:base" component={Exchange}/>
+          <Route exact path="/"  component={Landing}/>
+          <Route path="/exchange/:base" component={Exchange}/>
           </div>
        </Router>
 

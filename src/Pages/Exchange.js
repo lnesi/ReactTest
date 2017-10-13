@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import fetchRates from '../Actions.js';
 import {Link} from 'react-router-dom';
+import Preloader from '../Components/Preloader.js';
 
 function mapStateToProps(state) {
 	return state;
@@ -17,6 +18,13 @@ class Exchange extends Component {
 		
 	}
 	render(){
+		if(this.props.loading){
+			return (
+			<Preloader/>
+			)
+		}else{
+		
+
 		return (
 				<div>
 
@@ -51,12 +59,13 @@ class Exchange extends Component {
               		</ul>
               		<div className="App-content-holder App-text_right"> 
 	              		
-	              		<Link to="/react" className="mdc-button mdc-button--raised">
+	              		<Link to="/" className="mdc-button mdc-button--raised">
 						 BACK
 						</Link>
 					</div>
 				</div>
 				);
+		}
 
 	}
 }
