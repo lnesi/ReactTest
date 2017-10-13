@@ -16,7 +16,7 @@ class Landing extends Component {
 					this.props.currency_list.map((code)=>{
 						let item=this.props.currencies[code];
 						let classname='mdc-list-item__start-detail flag-icon flag-icon-'+item.flag;
-						let linkurl="/exchange/"+item.code
+						let linkurl="/react/exchange/"+item.code
 						return (
 						 <Link key={item.code} to={linkurl} className="mdc-list-item" data-mdc-auto-init="MDCRipple">
 						    <i className={classname} aria-hidden="true"></i>

@@ -51,7 +51,7 @@ class Exchange extends Component {
               		</ul>
               		<div className="App-content-holder App-text_right"> 
 	              		
-	              		<Link to="/" className="mdc-button mdc-button--raised">
+	              		<Link to="/react" className="mdc-button mdc-button--raised">
 						 BACK
 						</Link>
 					</div>

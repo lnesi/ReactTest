@@ -19,8 +19,8 @@ class App extends Component {
        <Router>
          <div>
           <Header/>
-          <Route exact path="/" component={Landing}/>
-          <Route path="/exchange/:base" component={Exchange}/>
+          <Route exact path="/react"  component={Landing}/>
+          <Route path="/react/exchange/:base" component={Exchange}/>
           </div>
        </Router>
 
