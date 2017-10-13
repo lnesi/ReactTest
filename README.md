@@ -1,7 +1,7 @@
 ## React App Test
 This is a demo to show React and Redux coding capabilities.
 ### Demo 
-https://lnesi.github.io/react/
+https://lnesi.github.io/ReactTest/
 
 ### Exchanger 
 

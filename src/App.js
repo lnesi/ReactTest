@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <Router basename="/react/">
+       <Router basename="/ReactTest/">
          <div>
           <Header/>
           <Route exact path="/"  component={Landing}/>

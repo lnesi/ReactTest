@@ -2,7 +2,7 @@
   "name": "react_test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lnesi.github.io/react",
+  "homepage": "https://lnesi.github.io/ReactTest",
   "dependencies": {
     "material-components-web": "^0.22.0",
     "react": "^16.0.0",
