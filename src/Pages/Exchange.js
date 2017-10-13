@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import fetchRates from '../Actions.js';
-import {MDCTextfield} from '@material/textfield';
 import {Link} from 'react-router-dom';
 
 function mapStateToProps(state) {
@@ -11,7 +10,7 @@ function mapStateToProps(state) {
 class Exchange extends Component {
 	componentDidMount(){
 		this.props.dispatch(fetchRates(this.props.match.params.base));
-		new MDCTextfield(document.querySelector('.mdc-textfield'));
+		//mdc.textfield.MDCTextfield.attachTo(document.querySelector('.mdc-textfield'));
 	}
 	onKeyUpHandler(){
 		this.props.dispatch({type:"SET_BASE_AMOUNT",payload:document.getElementById("amount_in").value});

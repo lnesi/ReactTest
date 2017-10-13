@@ -17,6 +17,7 @@ const initialState={
   currency_list:['USD','GBP','EUR'],  
   currentAmount:0
 }
+
 function reducer(state = initialState, action) {
   switch (action.type) {
     case 'FETCH_RATES_START':{
