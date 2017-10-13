@@ -7,10 +7,10 @@ https://lnesi.github.io/react/
 
 ### Landing
 Choose one of the 3 available currencies
-(/demo/landing.png)
+![Landing](/demo/landing.png)
 
 ### Exchange
 Input the base value and review the exchanges below.
-(/demo/exchange.png)
+![Exchange](/demo/exchange.png)
 
 
